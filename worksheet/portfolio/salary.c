@@ -10,7 +10,7 @@
  int main( void ) {
 
     // define and initialise variables for the problem data 
-    int salary = 36250; // set variables for worksheet
+    float salary = 36250; // set variables for worksheet
     float NI = 0.08;
     float TR = 0.15;
     // calculate the deductions and final take-home salary
@@ -20,7 +20,7 @@
     float take_home_salary = NI_salary - tax_cost;  // final salary
     // Use only these print statement with appropriate formatting and variable names
     //printf("Salary £...",var_name);
-    printf("Salary £%.2d",salary);
+    printf("Salary £%.2f",salary);
     //printf("NI contribution £...",var_name);
     printf("NI contribution £%.2f",NI_cost);
     //printf("Tax contribution £...",var_name);
